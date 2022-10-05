@@ -67,7 +67,7 @@ public class AuthorizationController {
         String response = this.webClient
                 .get()
                 .uri(this.resourceBaseUri + "/resource/all-data")
-                .attributes(clientRegistrationId("resource-data-server-client-client-credentials"))
+                .attributes(clientRegistrationId("resource-data-client-client-credentials"))
                 .retrieve()
                 .bodyToMono(String.class)
                 .block();
