@@ -3,6 +3,15 @@
 ## Build with:
 `Java 17.0.1` `Gradle`
 
+## Document about Oauth2
+- [What is Oauth2](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-01)
+- [Link youtube](https://youtu.be/996OiexHze0)
+## Some Refer about grant-type in Oauth2 you should read
+
+- [Authorization Code Flow with Proof Key for Code Exchange (PKCE)](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow-with-proof-key-for-code-exchange-pkce)
+- [Resource Owner Password Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/resource-owner-password-flow)
+- [Client Credentials Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow)
+
 ## Demo with Spring Authorized Server 
 
 ### Source Include:
