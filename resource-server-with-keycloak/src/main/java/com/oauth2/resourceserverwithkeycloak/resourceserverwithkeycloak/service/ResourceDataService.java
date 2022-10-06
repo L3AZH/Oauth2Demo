@@ -20,7 +20,7 @@ public class ResourceDataService {
         List<ResourceEntity> listData = resourceDataRepo.findAll();
         List<ResourceDataItemResponse> listResponse = listData.stream().map(item ->
                 ResourceDataItemResponse.builder()
-                        .idResource(item.getIdResource())
+                        .idResource(item.getIdResource().toString())
                         .name(item.getName())
                         .description(item.getDescription())
                         .deathTime(item.getDeathTime())

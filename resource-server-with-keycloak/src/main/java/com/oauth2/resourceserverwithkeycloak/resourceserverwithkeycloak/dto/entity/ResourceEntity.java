@@ -8,6 +8,7 @@ import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.UUID;
 
 @Entity
 @Table(name = "oauth2_resource_data")
@@ -23,7 +24,7 @@ public class ResourceEntity {
             strategy = "org.hibernate.id.UUIDGenerator"
     )
     @Column(name = "id_resource", columnDefinition = "NVARCHAR(1024)")
-    private String idResource;
+    private UUID idResource;
 
     @Column(name = "name", columnDefinition = "NVARCHAR(225)")
     private String name;
